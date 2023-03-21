@@ -14,6 +14,8 @@ class Pastis:
         else:
             print(f"{value} is invalid")
 
+    def __str__(self):
+        return (f"Pastis de pes {self.__pes}. Xocolata? {self.__xocolata}.")
 ## Instanciació
 pes = 150 #grams
 pastis_1 = Pastis(pes)
